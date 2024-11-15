@@ -1,0 +1,41 @@
+{
+    "format_version": 2,
+    "header": {
+      "name": "Mimi Puerto",
+      "description": "Teleport yourself to claimed lands!",
+      "uuid": "4edbed18-dabd-4b41-8b8c-96c0034ff1c4",
+      "version": [
+        1,
+        0,
+        0
+      ],
+      "min_engine_version": [
+        1,
+        16,
+        0
+      ]
+    },
+    "modules": [
+      {
+        "type": "script",
+        "language": "javascript",
+        "uuid": "4b5590c4-1ad4-40c1-b672-c4e2e12c8d65",
+        "entry": "scripts/main.js",
+        "version": [
+          1,
+          0,
+          0
+        ]
+      }
+    ],
+    "dependencies": [
+      {
+        "module_name": "@minecraft/server",
+        "version": "1.15.0"
+      },
+      {
+          "module_name": "@minecraft/server-ui",
+          "version": "1.3.0"
+      }
+    ]
+  }
